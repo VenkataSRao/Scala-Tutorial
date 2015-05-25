@@ -1,0 +1,57 @@
+Scala Has below operators
+
+- Arithmetic Operators
+- Relational Operators
+- Logical Operators
+- Bitwise Operators
+- Assignment Operators
+
+Arithmetic Operators
+
++ 	Adds two operands
+-	 Subtracts second operand from the first
+*	Multiplies both operands	
+/	Divides numerator by de-numerator	
+%	Modulus Operator and remainder of after an integer division
+
+Relational Operators
+
+==	Checks if the values of two operands are equal or not, if yes then condition becomes true.
+!=	Checks if the values of two operands are equal or not, if values are not equal then condition becomes true.
+>	Checks if the value of left operand is greater than the value of right operand, if yes then condition becomes true.	
+<	Checks if the value of left operand is less than the value of right operand, if yes then condition becomes true.
+>=	Checks if the value of left operand is greater than or equal to the value of right operand, if yes then condition becomes true.	
+<=	Checks if the value of left operand is less than or equal to the value of right operand, if yes then condition becomes true.
+
+
+Logical Operators
+
+&&	Called Logical AND operator. If both the operands are non zero then condition becomes true.	
+||	Called Logical OR Operator. If any of the two operands is non zero then condition becomes true.	
+! Called Logical NOT Operator. Use to reverses the logical state of its operand. If a condition is true then Logical NOT operator will make false.
+
+
+Bitwise Operators
+
+Bitwise operator works on bits and perform bit by bit operation. The truth tables for &, |, and ^ are as follows:
+
+p	q	  p & q	  p | q	  p ^ q
+0	0	  0	        0	      0
+0	1	  0	        1	      1
+1	1	  1	        1	      0
+1	0	  0	        1	      1
+
+
+Assignment Opertors
+
+=
++=
+-=
+*=
+/=
+%=
+<<=
+>>=
+&=
+|=
+
