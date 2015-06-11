@@ -1,0 +1,7 @@
+SDK installation Steps:
+1) Download scala-SDK-3.0.3-2.10-linux.gtk.x86_64.tar.gz
+2) Extact the contents and this creates the folder eclipse
+3) cd eclipse
+4)./eclipse ( in terminal )
+5) This opens the scala IDE and prompts you for workspace. Specify the workspace directory.
+6) The IDE allows to create java as well as scala projects.
