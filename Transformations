@@ -1,8 +1,0 @@
-Below are common transformations..
-
-1.map
-2.filter
-3.flatMap
-4.mappartitions
-5.mapPartitionWithIndex
-6.sample
