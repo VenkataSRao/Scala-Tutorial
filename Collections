@@ -1,0 +1,4 @@
+Scala has support for collections. Collections are containers of things. The number of elements could be either 
+0 or 1 or more. 
+Collections could be either strict or lazy. Lazy means elements donot consume memory until they are accessed.
+Scala favors immutable collections although mutable versions are provided.  
