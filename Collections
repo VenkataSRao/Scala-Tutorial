@@ -9,6 +9,7 @@ If collection needs to be used across threads or actors, immutables are better.
 Another categorization of collections is ether they are mutable or immutable.
 
 Example to define collections:
+===============================
 
 // Define List of integers.
 val x = List(1,2,3,4)
@@ -24,3 +25,31 @@ val x = (10, "Scala")
 
 // Define an option
 val x:Option[Int] = Some(5)
+
+Scala Lists:
+================
+Lists are similar to arrays but the key differnece lies in-
+  List elements are immutable where as array elements are mutable.
+  List represents a linked list whereas arrays are flat.
+  
+Defining a list:
+// List of Strings
+val fruit: List[String] = List("apples", "oranges", "pears")
+
+// List of Integers
+val nums: List[Int] = List(10, 20, 30, 40)
+
+// Empty List.
+val empty: List[Nothing] = List()
+
+// Two dimensional list
+val dim: List[List[Int]] =
+   List(
+      List(1, 0, 0),
+      List(0, 1, 0),
+      List(0, 0, 1)
+      
+      
+Lists can also be defined using two fundamental blocks- Nil and ::
+// List of Strings
+val fruit = "apples" :: ("oranges" :: ("pears" :: Nil))
