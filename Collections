@@ -53,3 +53,50 @@ val dim: List[List[Int]] =
 Lists can also be defined using two fundamental blocks- Nil and ::
 // List of Strings
 val fruit = "apples" :: ("oranges" :: ("pears" :: Nil))
+
+// List of Integers
+val nums = 1 :: (2 :: (3 :: (4 :: Nil)))
+
+// Empty List.
+val empty = Nil
+
+// Two dimensional list
+val dim = (1 :: (0 :: (0 :: Nil))) ::
+          (0 :: (1 :: (0 :: Nil))) ::
+          (0 :: (0 :: (1 :: Nil))) :: Nil
+          
+Basic Operations on List:
+ val fruit = "apples" :: ("oranges" :: ("pears" :: Nil))
+      val nums = Nil
+
+      println( "Head of fruit : " + fruit.head )
+      println( "Tail of fruit : " + fruit.tail )
+      println( "Check if fruit is empty : " + fruit.isEmpty )
+      println( "Check if nums is empty : " + nums.isEmpty )
+      
+Result:
+Head of fruit : apples
+Tail of fruit : List(oranges, pears)
+Check if fruit is empty : false
+Check if nums is empty : true
+
+head -> this method returns first element of the list.
+tail -> this method returns a list containing all elements except first.
+isEmpty -> this method returns true if the list is empty and otherwise false.
+
+Concatenating Lists:
+======================
+Use either ::: or List.::: or List.concat() to concatenate two or more lists.
+Example:
+val fruit1 = "apples" :: ("oranges" :: ("pears" :: Nil))
+val fruit2 = "mangoes" :: ("banana" :: Nil)
+
+//concatenating lists
+var fruit = fruit1 ::: fruit2
+fruit = fruit1.:::(fruit2)
+fruit = List.concat(fruit1, fruit2)
+
+Creating Uniform Lists:
+=======================
+
+
