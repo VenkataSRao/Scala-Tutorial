@@ -32,4 +32,3 @@ class Point(xc: Int, yc: Int) extends Equal {
 
 Use traits-
 1. If certain behavior has to be reused in multiple classes than make it a trait.
-
