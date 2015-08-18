@@ -53,6 +53,7 @@ BASIC SYNTAX:
  •def main(args:Array[String]) -  It is the mandatory part of every scala program from which processing starts.
  
 SCALA IDENTIFIERS:
+====================
 As in all programming languages, keywords cannot be used as identifiers. Identifiers are case sensitive. 
 Four types of identifiers are supported in scala:
 
@@ -96,6 +97,7 @@ Importing a single class -> import scala.collection.mutable.HashMap
 Import more than one class or object from a package -> import scala.collection.immutable.{TreeMap, TreeSet}
 
 SCALA DATATYPES:
+================
 Scala has same data types as java with same memory allocation and precision. Following are the supported 
 data types-
 Byte, short, int, long, float, double, char, string, boolean, unit, null (empty reference), unit (means no value),
